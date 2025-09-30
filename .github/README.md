@@ -71,7 +71,7 @@ SkillBot is designed to provide instant, intelligent support for students and le
 ## ✨ Demo
 
 - REST API: http://localhost:5000
-- Dashboard: http://localhost:8501
+- Dashboard: [http://localhost:8501](http://localhost:8503/)
 
 ## 🔍 Key Capabilities
 
