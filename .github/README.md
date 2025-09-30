@@ -144,6 +144,7 @@ Watch this short video to see the full functionality of SkillBot, including the 
 
 [**Watch the Demo Video**](WhatsApp Video 2025-09-30 at 20.55.01_b1a28765.mp4)
 
+
 ---
 
 ## 🛠️ Tech Stack
