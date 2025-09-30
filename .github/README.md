@@ -100,5 +100,64 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Streamlit for the awesome dashboard framework
 - Flask for the reliable API framework
 
+## demo working video
+# SkillBot 🤖
+
+An AI-powered educational chatbot for SkillHigh, built with Python, spaCy, and machine learning. The chatbot assists students with course information, internship details, and FAQs while providing a natural, engaging conversational experience.
+
+## 🌟 Key Features
+
+- **🧠 NLP-Based Intelligence**
+  - Intent recognition using spaCy
+  - Sentiment analysis for empathetic responses
+  - Smart context handling
+  - Natural language understanding
+
+- **💬 Conversational Features**
+  - Course and internship guidance
+  - FAQ handling with context awareness
+  - Small talk capabilities
+  - Multi-turn conversations
+
+- **🔌 Integration & Analytics**
+  - REST API for easy integration
+  - Real-time analytics dashboard
+  - Usage statistics and insights
+  - Interactive Streamlit interface
+
+---
+
+## ✨ Demo
+
+### 🖼️ Screenshots
+
+Here are a few glimpses of SkillBot in action, showcasing the chat interface and the analytics dashboard.
+
+![WhatsApp Image 2025-09-30 at 20 59 42_ddee5797](https://github.com/user-attachments/assets/32258e01-b6f1-413a-bdda-4f60e249febd)
+![WhatsApp Image 2025-09-30 at 20 59 56_bc55f597](https://github.com/user-attachments/assets/7eccc9b7-8adc-4531-933e-1b01e18ccaa2)
+![WhatsApp Image 2025-09-30 at 20 59 56_6ebac2dd](https://github.com/user-attachments/assets/b4b27e89-e764-4b69-a974-881261e4915d)
+
+
+### 🎬 Demo Video
+
+Watch this short video to see the full functionality of SkillBot, including the conversational flow and the real-time analytics dashboard.
+
+[**Watch the Demo Video**](WhatsApp Video 2025-09-30 at 20.55.01_b1a28765.mp4)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.8+
+- spaCy (NLP processing)
+- TextBlob (Sentiment analysis)
+- Flask (REST API)
+- Streamlit (Dashboard)
+- scikit-learn (ML features)
+
+---
+
+## 📊 Architecture
+
 ---
 **Note**: This is an educational project developed for SkillHigh's learning platform.
