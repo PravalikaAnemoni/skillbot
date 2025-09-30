@@ -70,8 +70,8 @@ SkillBot is designed to provide instant, intelligent support for students and le
 
 ## ✨ Demo
 
-- REST API: http://localhost:5000
-- Dashboard: [http://localhost:8501](http://localhost:8503/)
+- RE Local URL: http://localhost:8501
+  Network URL: http://192.168.0.105:8501
 
 ## 🔍 Key Capabilities
 
@@ -159,7 +159,63 @@ https://github.com/user-attachments/assets/7eeeb2d1-e43d-492e-848b-dddf48886577
 
 ---
 
-## 📊 Architecture
+## Here are the complete steps to run the SkillBot project:
 
----
+Environment Setup ✅
+
+# Navigate to project directory
+cd c:\Users\naras\OneDrive\Desktop\skillbot
+
+# Activate virtual environment
+.venv\Scripts\activate
+
+Start Flask API Server ✅
+# In first terminal
+python api/main.py
+
+API will run at http://127.0.0.1:5000
+Endpoints available:
+GET /greet - Welcome message
+POST /chat - Send chat messages
+GET /courses - View courses
+GET /internships - View internships
+GET /faq - View FAQs
+
+Launch Streamlit Dashboard ✅
+# In second terminal
+streamlit run dashboard/app.py
+
+Dashboard will open at http://localhost:8501
+Features:
+Interactive chat interface
+Real-time analytics
+Course catalog
+Internship listings
+Access the Applications
+
+API Documentation: Visit http://127.0.0.1:5000
+Interactive Dashboard: Visit http://localhost:8501
+Example API Usage
+# Get greeting
+curl http://127.0.0.1:5000/greet
+
+# Send chat message
+curl -X POST -H "Content-Type: application/json" \
+     -d '{"query":"Tell me about your courses"}' \
+     http://127.0.0.1:5000/chat
+     
+Dashboard Features
+
+Chat directly in the web interface
+View analytics in real-time
+Access quick links to courses and internships
+Monitor sentiment analysis and intent distribution
+The project is now running with both the API server and the interactive dashboard. You can:
+
+Use the REST API for programmatic access
+Use the Streamlit dashboard for interactive chat and analytics
+Test different types of queries about courses, internships, and general information
+
+
+
 **Note**: This is an educational project developed for SkillHigh's learning platform.
