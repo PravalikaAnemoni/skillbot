@@ -142,7 +142,8 @@ Here are a few glimpses of SkillBot in action, showcasing the chat interface and
 
 Watch this short video to see the full functionality of SkillBot, including the conversational flow and the real-time analytics dashboard.
 
-[**Watch the Demo Video**](WhatsApp Video 2025-09-30 at 20.55.01_b1a28765.mp4)
+
+https://github.com/user-attachments/assets/7eeeb2d1-e43d-492e-848b-dddf48886577
 
 
 ---
