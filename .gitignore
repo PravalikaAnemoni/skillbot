@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.DS_Store
+/.vscode/
+/demo/chat_history.json
+*.log
