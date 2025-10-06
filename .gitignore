@@ -9,3 +9,6 @@ venv/
 /.vscode/
 /demo/chat_history.json
 *.log
+
+# Local large artifacts\nNew Compressed (zipped) Folder.zip
+SkillHigh_Chatbot_Challenge.ipynb
