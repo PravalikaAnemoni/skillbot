@@ -43,6 +43,11 @@ SkillBot is an AI-powered chatbot designed for SkillHigh, assisting students wit
 - Analytics are basic; can be expanded
 - No persistent database (can be added)
 
+## Optimizations
+
+- String processing has been optimized: the project now tokenizes and normalizes user input (lemmatization and lowercasing) using a cached tokenizer. This reduces repeated substring scans, improves intent detection accuracy, and speeds up repeated queries by reusing cached token tuples.
+   - See `skillbot/nlp.py` for the tokenizer and `skillbot/chatbot.py` for how intents use token sets instead of raw substring matching.
+
 ## How to Run
 1. Install dependencies:
    ```bash
