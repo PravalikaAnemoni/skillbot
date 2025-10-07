@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## added
 - Refactor: optimize string tokenization into cached tokens; use tokenization for intent detection.
 - Add: centralized tokenizer and intent helpers in `skillbot/nlp.py` (LRU cache + spaCy fallback).
 - Refactor: `skillbot/chatbot.py` updated to use token sets and cached intent lookups (faster, more robust).
